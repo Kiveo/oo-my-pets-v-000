@@ -16,8 +16,9 @@ class Owner
     "I am a human."
   end
 
-  def buy_fish(fish_name)
-    @pets(fishes) = fish_name
-    fish = Fish.new(fish_name)
+  def buy_fish(fish)
+    @pets(fishes) = fish
+    fish.owner = self
+  end
 
 end
