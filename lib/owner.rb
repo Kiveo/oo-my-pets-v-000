@@ -29,7 +29,7 @@ class Owner
   end
 
   def buy_fish(name) #buy an instance of a fish: must have a parameter?
-    @pets[:fishes] << fish.new(name)
+    @pets[:fishes] << Fish.new(name)
   end
 
 end
