@@ -4,5 +4,5 @@ class Owner
   def initialize(owner_name)
     @owner_name = owner_name
   end
-  
+
 end
