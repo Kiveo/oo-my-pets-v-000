@@ -56,6 +56,7 @@ class Owner
     @pets.each {|breed, pet_array|
       pet_array.each {|pet| pet.mood = "nervous"}
     }
+    @pets.clear
   end
   
 end
