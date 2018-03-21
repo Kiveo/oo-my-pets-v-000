@@ -21,7 +21,7 @@ class Owner
   end
 
   def self.reset_all
-    @@count = 1
+    @@count = 0
   end
 
   def say_species
