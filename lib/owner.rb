@@ -2,7 +2,7 @@ class Owner
   attr_accessor :species, :pets
 
   def initialize(species)
-    SPECIES = species
+    @species = species
   end
 
   def say_species
