@@ -12,17 +12,17 @@ class Owner
     @@all_owners << self
   end
 
-  # def all
-  #   @@all_owners
-  # end
+  def self.all
+    @@all_owners
+  end
 
   def say_species
     "I am a human."
   end
 
-  def buy_fish(fish)
-    @pets(fishes) = fish
-    fish.owner = self
-  end
+  # def buy_fish(fish)
+  #   @pets(fishes) = fish
+  #   fish.owner = self
+  # end
 
 end
