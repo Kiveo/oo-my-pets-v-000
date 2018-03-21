@@ -4,7 +4,7 @@ class Owner
 
   def initialize(species)
     @species = species
-    @pets = {"cats" => [], "dogs" => [], "fish" => [] }
+    @pets = {:fishes => [], :dogs => [], :cats => [] }
   end
 
   def say_species
