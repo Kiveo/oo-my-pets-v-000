@@ -28,8 +28,8 @@ class Owner
     "I am a human."
   end
 
-  def buy_fish(fish) #buy an instance of a fish: must have a parameter?
-    @pets[:fishes] << fish
+  def buy_fish(fish_name) #buy an instance of a fish: must have a parameter?
+    @pets[:fishes] << fish.new(fish_name)
   end
 
 end
