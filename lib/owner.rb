@@ -1,8 +1,8 @@
 class Owner
   attr_accessor :species, :pets
 
-  def initialize
-    @species = species
+  def initialize(species)
+    SPECIES = species
   end
 
   def say_species
