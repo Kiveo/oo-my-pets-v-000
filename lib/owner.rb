@@ -16,6 +16,10 @@ class Owner
     @@all_owners
   end
 
+  def self.reset_all
+    @@all_owners = []
+  end
+
   def say_species
     "I am a human."
   end
